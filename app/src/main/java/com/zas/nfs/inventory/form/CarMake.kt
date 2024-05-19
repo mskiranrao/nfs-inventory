@@ -1,0 +1,55 @@
+package com.zas.nfs.inventory.form
+
+class CarMake() {
+    constructor(make: Make) : this() {
+        this.make = make
+    }
+
+    var make: Make = Make.ALFA_ROMEO
+}
+
+enum class Make(val make: String) {
+    ALFA_ROMEO("ALFA ROMEO"),
+    APOLLO("APOLLO"),
+    ASTON_MARTIN("ASTON MARTIN"),
+    BECK_KUSTOMS("BECK KUSTOMS"),
+    BENTLEY("BENTLEY"),
+    BMW("BMW"),
+    BRABHAM("BRABHAM"),
+    BUGATTI("BUGATTI"),
+    BUICK("BUICK"),
+    CADILLAC("CADILLAC"),
+    CHEVROLET("CHEVROLET"),
+    DELOREAN("DELOREAN"),
+    DODGE("DODGE"),
+    FERRARI("FERRARI"),
+    FORD("FORD"),
+    HENNESSEY("HENNESSEY"),
+    HONDA("HONDA"),
+    HOT_WHEELS("HOT WHEELS"),
+    INFINITI("INFINITI"),
+    JAGUAR("JAGUAR"),
+    KOENIGSEGG("KOENIGSEGG"),
+    KTM("KTM"),
+    LAMBORGHINI("LAMBORGHINI"),
+    LAND_ROVER("LAND ROVER"),
+    LOTUS("LOTUS"),
+    MASERATI("MASERATI"),
+    MAZDA("MAZDA"),
+    MCLAREN("McLAREN"),
+    MERCEDES_BENZ("MERCEDES-BENZ"),
+    MERCEDES_AMG("MERCEDES-AMG"),
+    MITSUBISHI("MITSUBISHI"),
+    NISSAN("NISSAN"),
+    PAGANI("PAGANI"),
+    POLESTAR("POLESTAR"),
+    PONTIAC("PONTIAC"),
+    PORSCHE("PORSCHE"),
+    RENAULT("RENAULT"),
+    RIMAC("RIMAC"),
+    SHELBY("SHELBY"),
+    SRT("SRT"),
+    SUBARU("SUBARU"),
+    TOYOTA("TOYOTA"),
+    VOLKSWAGEN("VOLKSWAGEN"),
+}
