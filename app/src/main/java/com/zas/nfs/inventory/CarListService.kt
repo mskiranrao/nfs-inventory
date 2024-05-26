@@ -5,7 +5,7 @@ import com.zas.nfs.inventory.form.CarMake
 import com.zas.nfs.inventory.form.Make
 
 class CarListService {
-    fun getCarsList(scope: Scope, data: Any? = null): ArrayList<CarDetails> {
+    fun getCarsList(scope: Scope, data: Any? = null): List<CarDetails> {
         val carList = arrayListOf<CarDetails>()
         when (scope) {
             Scope.ALL -> {
